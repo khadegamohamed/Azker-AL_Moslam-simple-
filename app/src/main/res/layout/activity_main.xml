@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv1"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:background="#FFBB86FC"
+    >
+
+    <TextView
+        android:id="@+id/maintv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFBB86FC"
+        android:gravity="center"
+        android:text="اذكار المسلم"
+        android:textColor="#FF000000"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/azeralmsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="#FFBB86FC"
+        android:text="AZKER AL_NIGHT"
+        android:textColor="#FF000000"
+        android:textSize="20sp"
+        tools:viewBindingIgnore="true"
+        />
+
+    <Button
+        android:id="@+id/azkeralspah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFBB86FC"
+        android:text="AZKER AL_MORINING"
+        android:textColor="#FF000000"
+        android:textSize="20sp"/>
+
+
+
+</LinearLayout>
